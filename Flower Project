@@ -1,1 +1,30 @@
+#Flower Project
+##By: Peyton R. Jarriel
+
+##The Idea:
+The idea with this project is to be able create a alexnet model that can determine the type of flower
+just based on the color and any surrding leaves or parts. To prepare for this I took 5 pictures of 5
+random flowers around my campus for my test variables and then researched the type of flower there were
+and then took a picture off of google to use for my valid variable. 
+
+##The Process:
+AlexNet consists of eight layers, including five convolutional layers and three 
+fully connected layers. The convolutional layers are used to extract features from
+the input image, and the fully connected layers are used for classification.
+One of the key innovations of AlexNet is the use of Rectified Linear Units (ReLU)
+as activation functions, which helped to overcome the vanishing gradient problem and
+speed up training. Another important contribution was the use of data augmentation
+techniques, such as random cropping and flipping, which helped to reduce overfitting
+and improve generalization.
+
+slides:
+The only slides I have are the one I put together of the 25 pictures I took so I 
+figure I will include them. 
+
+https://docs.google.com/presentation/d/1Diq_F6noiz9aF53BsFqfId77zedOLxGdNCQyQcgwNyQ/edit?usp=sharing
+
+#Notebook:
+This is the google colab notebook that was used to create and train my model so it can predict the 
+type of flower correctly. 
+
 https://colab.research.google.com/drive/1O6YBnphPI4ioc6n1PskvyOp9Ufm1kL5N?usp=sharing 
