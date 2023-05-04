@@ -1,4 +1,45 @@
 #ALexNet Brain Project
+##By: Peyton R. Jarriel
 
 
 ##The Idea
+In theory I should be able to make use a alexnet model that can determine 
+two diffrent type of tumors in the brain. We are comparing between 
+glioma and meningioma tumors. Some of the diffrences I wish for the alexnet
+to be able to identify is the diffence in size, shape, and potential location
+of the tumor.
+
+##The Process
+AlexNet consists of eight layers, including five convolutional layers and three 
+fully connected layers. The convolutional layers are used to extract features from
+the input image, and the fully connected layers are used for classification.
+One of the key innovations of AlexNet is the use of Rectified Linear Units (ReLU)
+as activation functions, which helped to overcome the vanishing gradient problem and
+speed up training. Another important contribution was the use of data augmentation
+techniques, such as random cropping and flipping, which helped to reduce overfitting
+and improve generalization.
+
+##My presentation:
+The following presentation is one that I completed in class, In the presentation I go into my goal
+in the project as stated before. I also go into detail about the convolution, pooling, and relu process. 
+and finally I end my presentation with recapping the results of my project by showing a screenshot of the
+valid and test acc.
+
+https://docs.google.com/presentation/d/1DKUdj46AJRN9cs8cTSbzYPbsj0ioxngNOUH42EEx1Ro/edit?usp=sharing
+
+##The code and notebook:
+The following is my google colab notebook which has all the code I used for the project as well as 
+some comments throughout the notebook to help detail what is happening within all the code. 
+
+
+
+
+
+
+
+
+
+
+
+
+
